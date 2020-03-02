@@ -20,11 +20,15 @@ Please note that this project is still a work in progress.
 * Data Visualisation
 * Natural Language Processing
 
+# The Project
+
 ### Gathering Data
 
 I collected my data from two main sources:
 * The 380,000+ Lyrics from Metrolyrics kaggle dataset that was created by Gyanendra Mishra: https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics, this dataset provided me with features such as song name, year, artist name, genre and lyrics
 * Spotify's API for audio features such as mode, acousticness & danceability, please refer to spotify's developer documentation for a full list of features and their descriptions: https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
+
+
 
 ### Cleaning and Feature Engineering
 
@@ -37,6 +41,8 @@ The dataset was heavily skewed, most songs had been released in 2006 or 2007 and
 I also used the spotify api to get additional audio features for each song. This reduced my dataset again by 60,000 songs as many could not be found on spotify's search. This may have been due to differences such as in song names or where featured artists names appear.
 
 I was unable to remove foreign languages that were written using the english alphabet - this is something that I will continue to look into. I believe spacy-langdetect will resolve this problem for me in the future: https://pypi.org/project/spacy-langdetect/
+
+
 
 ### Exploratory Data Analysis and Natural Language Processing
 
@@ -60,6 +66,8 @@ I chose to use 5 different classification models:
 * Random Forest
 
 My baseline accuracy was 0.25, in the end my Random Forest model (score 0.61) performed the best when rounded to 2 decimal places however it's score was very similar to my Gradient Boosting model (score 0.60). I believe with furthur fine tuning that I could increase my scores. Boosting models were however more computationally intensive and therefore I believe the Random Forest model was the best choice. Although logistic regression (score 0.38) gave me a much lower score than other models, it did enable me to extract feature importance which was insightful.
+
+
 
 ### Final Thoughts and Areas for Further Exploration
 
