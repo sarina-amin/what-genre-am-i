@@ -4,7 +4,7 @@ The goal of this project was to classify songs into different genres based on th
 
 Please note that this project is still a work in progress. 
 
-### Table of Contentts
+### Table of Contents
 * [Technologies Used](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#technologies-used)
 * [Packages Used](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#packages-used)
 * [Methods Used](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#methods-used)
