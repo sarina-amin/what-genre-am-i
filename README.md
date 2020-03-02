@@ -4,6 +4,17 @@ The goal of this project was to classify songs into different genres based on th
 
 Please note that this project is still a work in progress. 
 
+### Table of Contentts
+* [Technologies Used](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#technologies-used)
+* [Packages Used](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#packages-used)
+* [Methods Used](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#methods-used)
+* [The Project](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#methods-used)
+    * [Gathering Data](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#gathering-data)
+    * [Cleaning and Feature Engineering](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#cleaning-and-feature-engineering)
+    * [Exploratory Data Analysis and Natural Language Processing](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#exploratory-data-analysis-and-natural-language-processing)
+    * [Modelling](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#modelling)
+* [Final Thoughts and Areas for Further Exploration](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#final-thoughts-and-areas-for-further-exploration)
+
 ### Technologies Used
 * Python
 * Jupyter Notebook
@@ -15,12 +26,12 @@ Please note that this project is still a work in progress.
 * Seaborn
 * Spotipy
 
-# Methods Used
+### Methods Used
 * Machine Learning (Classification)
 * Data Visualisation
 * Natural Language Processing
 
-# The Project
+## The Project
 
 ### Gathering Data
 
