@@ -2,7 +2,7 @@
 
 The goal of this project was to classify songs into different genres based on their respective lyrics, with the help of additional audio features. The main reason why I chose this project was to learn more about Natural Language Processing.
 
-Please note that this project is still a work in progress. 
+Please note this project is still a work in progress, I have evaluated my results from modelling so far but plan to update it with different technologies in the future. 
 
 ### Table of Contents
 * [Technologies Used](https://github.com/sarina-amin/what-genre-am-i/blob/master/README.md#technologies-used)
